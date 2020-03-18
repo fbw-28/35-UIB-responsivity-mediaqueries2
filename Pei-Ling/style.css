@@ -37,5 +37,8 @@ li {
     }
     span {
         color: red;
+        font-style: italic; 
+        font-weight: bold;
+        text-decoration: underline;
     }
 }
