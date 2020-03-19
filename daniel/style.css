@@ -1,0 +1,29 @@
+main {
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
+    margin: 2px;
+}
+
+li {
+    margin: 10px;
+}
+
+@media screen and (min-width: 640px) {
+    main {
+        font-family: "Helvetica", sans-serif;
+        color: #b157ab;
+        font-size: 15px;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        background-color: #f5ff76;
+        font-family: "Monospace", monospace;
+        color: #b157ab;
+        font-size: 20px;
+        margin: 20px;
+        text-transform: capitalize;
+    }
+}
